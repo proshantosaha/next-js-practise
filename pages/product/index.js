@@ -1,6 +1,8 @@
 import Link from "next/link"
 
 export default function index({productId =100}) {
+
+ 
   return (
     <>
     <Link legacyBehavior href='./'>
@@ -29,6 +31,8 @@ export default function index({productId =100}) {
           <Link legacyBehavior href={`/product/${productId}`}>
               <a>Product{productId}</a>
           </Link>
+
+       
         </h2>
 
     </>
