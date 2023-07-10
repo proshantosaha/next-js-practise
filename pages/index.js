@@ -12,7 +12,9 @@ export default function index() {
     <div>
       <h2>Home</h2>
      
-
+      <Link legacyBehavior href='/users'>
+        <a>Users</a>
+      </Link>
 
       <Link legacyBehavior href='/blog'>
         <a>Blog</a>
