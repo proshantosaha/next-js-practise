@@ -16,6 +16,12 @@ export default function index() {
         <a>Users</a>
       </Link>
 
+      <Link legacyBehavior href='/posts'>
+        <a>posts</a>
+      </Link>
+
+      
+
       <Link legacyBehavior href='/blog'>
         <a>Blog</a>
       </Link>
